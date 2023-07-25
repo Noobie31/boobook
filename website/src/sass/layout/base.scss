@@ -1,0 +1,47 @@
+/* Base styles */
+
+:root {
+  --viewport-height: 100vh;
+  --background-height: 100vh;
+}
+
+body {
+  font-weight: 300;
+  min-height: 100%;
+  background-image: url("/images/background.png");
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-x: hidden;
+}
+
+figure {
+  margin: 0;
+}
+
+a {
+  transition: $transition;
+  color: rgba(36,36,36,0.588);
+}
+
+a:focus,
+a:active,
+a:hover {
+  outline: none;
+  color: $primaryColor;
+}
+
+p {
+  line-height: 25px;
+}
+
+ol,
+ul {
+  padding-left: 40px!important;
+}
+
+*:focus {
+  outline: none;
+}
+

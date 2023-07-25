@@ -1,0 +1,125 @@
+name: boobook
+description: Your library management assistant at school!
+publish_to: 'none' 
+version: 1.0.3
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  avatar:
+    git:
+      url: https://github.com/Noobie31/flutter_packages
+      path: packages/avatar
+    version: ^0.1.12
+  extensions:
+    git:
+      url: https://github.com/Noobie31/flutter_packages
+      path: packages/extensions
+    version: ^0.7.0
+  firestore_service:
+    git: 
+      url: https://github.com/Noobie31/flutter_packages
+      path: packages/firestore_service
+    version: ^0.6.0
+  firebase_storage_service:
+    git:
+      url: https://github.com/Noobie31/flutter_packages
+      path: packages/firebase_storage_service 
+    version: ^0.6.0 
+  layout_builder:
+    git:
+      url: https://github.com/Noobie31/flutter_packages
+      path: packages/layout_builder
+    version: ^3.7.2
+  models:
+    git:
+      url: https://github.com/Noobie31/flutter_packages
+      path: packages/models
+    version: ^0.1.2
+  photo_upload:
+    git: 
+      url: https://github.com/Noobie31/flutter_packages
+      path: packages/photo_upload
+    version: ^0.5.0
+  sign_in:
+    git:
+      url: https://github.com/Noobie31/flutter_packages
+      path: packages/sign_in
+    version: ^6.10.5
+  purchases:
+    git:
+      url: https://github.com/Noobie31/flutter_packages
+      path: packages/purchases
+    version: ^2.11.0
+  isbndb:
+    git:
+      url: https://github.com/Noobie31/flutter_packages
+      path: packages/isbndb
+    version: ^0.3.0
+  badges: ^2.0.1
+  barcode_image: ^2.0.0
+  barcode_widget: ^2.0.1
+  http: ^0.13.4
+  cached_network_image: ^3.1.0 
+  checkdigit: ^0.3.1
+  cloud_firestore: ^4.1.0
+  cupertino_icons: ^1.0.4
+  dio: ^5.3.0
+  expandable_bottom_sheet: ^1.1.1+1
+  firebase_auth: ^4.2.5
+  firebase_analytics: ^10.4.4
+  json_annotation: ^4.8.1
+  
+ 
+  firebase_storage: ^11.0.2
+  flutter_riverpod: ^2.1.1
+  flutter_slidable: ^1.1.0
+  freezed_annotation: any
+  image_cropper: ^2.0.3
+  image_picker: ^0.8.4+4
+  modal_bottom_sheet: ^2.0.2
+  pdf: ^3.6.2
+  printing: ^5.6.1
+  qr_code_scanner: ^0.6.1
+  sign_in_with_apple: ^3.3.0
+  url_launcher: ^6.0.12
+  vibration: ^1.7.4-nullsafety.0
+  firebase_crashlytics: ^3.3.4
+  intl: ^0.18.0
+  vibration_web: ^1.6.5
+  freezed: ^2.4.1
+  
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.9.2
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+  build_runner: ^2.1.5
+  json_serializable: any
+  lints: ^1.0.1
+  
+flutter:
+  generate: true
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: Jack+Input
+      fonts:
+        - asset: assets/fonts/JackInput.ttf
+    - family: AristotelicaSmallCaps
+      fonts:
+        - asset: assets/fonts/AristotelicaSmallCaps-Regular.ttf
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/icon.png"
